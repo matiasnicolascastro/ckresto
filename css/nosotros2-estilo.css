@@ -1,0 +1,190 @@
+
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+p{
+    color: white;
+    style="font-size: 50px;"
+    
+   
+}
+
+.imagen1{
+
+    height: 700px;
+}
+
+ body{font-family: 'Courier New', Courier, monospace;
+    padding: 90px 20px 0px;
+    background-color: black;
+    }
+    
+
+.contenedormain{
+
+width: 100%;
+display: flex;
+
+
+
+    }
+    
+    .header{
+        background-color: black;
+        font-family: 'Courier New', Courier, monospace;
+        height: 80px;
+        position: fixed;
+        width:100%;
+        top:0;
+        left:0;
+    }
+    
+    
+   
+    
+    }
+    .img-ico-header{
+    
+        height: 80px;
+        width:90px;
+    }
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        max-width: 992px;
+        margin: 0 auto;
+    }
+    
+    .nav-link{
+        color:white;
+    
+        text-decoration: none;
+    }
+    
+    .nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+    
+    }
+    .nav-menu-item{
+        font-size: 18px;
+        margin: 0 10px;
+        line-height: 80px;
+        text-transform: uppercase;
+        width: max-content;
+    }
+    
+    .nav-menu-link{
+        padding: 8px 12px;
+        border-radius: 3px;
+    }
+    
+    
+    .nav-menu-link:hover{
+        background-color: red;
+        color: white;
+        transition: .4s;
+    }
+    
+    
+    .footer-menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width:100%;
+        }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+        @media (max-width: 768px){
+
+            body{
+                background-color: black;
+                padding-top: 80px;   
+            }
+
+            .header{
+                background-color: black;
+                height: 80px;
+                    }
+            
+            .logo{
+            
+                font-size: 25px;
+                padding: 0 20px;
+                line-height: 80px;
+                 }
+            .nav-menu{
+                flex-direction: column;
+                align-items: center;
+                *margin:0;
+                list-style: none;
+                position: fixed;
+                left:0;
+                top: 60px;
+                width: 100%
+                background-cplor: red;
+               
+                font-weight: bold;
+                    }
+            .nav-menu-item{
+               
+                line-height: 80px
+                font-weight: bold;
+                
+            }
+            
+           .nav-menu-link:hover{
+                background-color: red;
+                color: white
+                font-weight: bold;
+                transition: .6s;
+            }
+        
+            .nav-toggle{
+               color: white;
+               background-color: red;
+                display: block;
+            }
+        
+            .nav{
+                display: flex;
+                justify-content: center;
+                max-width: 992px;
+                margin: auto;
+            }
+        
+            .img-ico-header{
+        
+                height: 80px;
+                width: 90px;
+            }
+        
+            .contenedormain{
+                margin-top: 10px;
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .imagen1{
+            }
+
+               

@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.padreGaleria{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color: black;
+}
+
+.h1Galeria{
+    margin-top: 20vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.contenidoGaleria{
+
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0px 30px 130px 30px;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+}
+
+.cajaGaleria{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: 90px;
+    align-items: center;
+    padding: 30px;
+}
+
+.imgStyle{
+    border: grey solid 3px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+p{
+    margin-top: 30px;
+    color: white;
+}
+
+footer{
+    background-color: black;
+    color:white;
+    font-size: 1rem;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.tituloFooter{
+    padding: 5px;
+    margin-top: 10px;    
+}
+
+.redesFooter{
+    display: flex;
+    height:fit-content;
+}
+
+.redesFooter ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.redesFooter li{
+    list-style: none;
+    size: 2rem;
+    margin: 3vh;
+
+}
