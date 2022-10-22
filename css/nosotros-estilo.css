@@ -83,7 +83,7 @@
             
         display: flex;
         margin-right: 40px;
-        background-image: url(./img/montefuji.jpg);
+        background-image: url(/img/montefuji.jpg);
         background-repeat: no-repeat;
         width: auto;
         height: 550px ;
@@ -127,7 +127,7 @@
     
    
 .footerdiv{
-    background-image: url("./img/fondo\ footer.jpg");
+    background-image: url("/img/fondo\ footer.jpg");
     background-repeat: no-repeat;
 }
 
